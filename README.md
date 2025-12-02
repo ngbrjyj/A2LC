@@ -1,5 +1,5 @@
 <h1 align="center">
-A²LC: Active and Automated Label Correction for <br> Semantic Segmentation
+A²LC: Active and Automated Label Correction <br> for Semantic Segmentation
 </h1>
 
 <p align="center">
