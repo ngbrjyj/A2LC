@@ -1,4 +1,6 @@
-<h1 align="center">A²LC: Active and Automated Label Correction for Semantic Segmentation</h1>
+<h1 align="center">
+A²LC: Active and Automated Label Correction for <br> Semantic Segmentation
+</h1>
 
 <p align="center">
   <a href="https://arxiv.org/abs/2501.01234"><img src="https://img.shields.io/badge/arXiv-Paper-b31b1b.svg?logo=arxiv&logoColor=white"></a>
