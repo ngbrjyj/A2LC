@@ -15,15 +15,15 @@ A²LC: Active and Automated Label Correction for Semantic Segmentation
   <a href="https://arxiv.org/abs/2506.11599">
     <img src="https://img.shields.io/badge/arXiv-2506.11599-B31B1B.svg?logo=arxiv&logoColor=white">
   </a>
-  <!-- <a href="">
+  <a href="">
     <img src="https://img.shields.io/badge/Project-Page-0A66C2.svg">
-  </a> -->
-  <!-- <a href="assets/A2LC_poster.pdf">
+  </a>
+  <a href="assets/A2LC_poster.pdf">
     <img src="https://img.shields.io/badge/Poster-PDF-2E8B57.svg">
   </a>
   <a href="assets/A2LC_video.mp4">
     <img src="https://img.shields.io/badge/Video-MP4-FFC247.svg">
-  </a> -->
+  </a>
   <a href="https://aaai.org/">
     <img src="https://img.shields.io/badge/AAAI-2026-001C36.svg">
   </a>
