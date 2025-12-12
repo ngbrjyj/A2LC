@@ -21,6 +21,9 @@ A²LC: Active and Automated Label Correction for Semantic Segmentation
   <a href="assets/A2LC_poster.pdf">
     <img src="https://img.shields.io/badge/Poster-PDF-2E8B57.svg">
   </a>
+  <a href="assets/A2LC_slides.pdf">
+  <img src="https://img.shields.io/badge/Slides-PDF-6A5ACD.svg">
+  </a>
   <a href="assets/A2LC_video.mp4">
     <img src="https://img.shields.io/badge/Video-MP4-FFC247.svg">
   </a>
