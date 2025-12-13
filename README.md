@@ -1,5 +1,5 @@
 <h1 align="center">
-A²LC: Active and Automated Label Correction for Semantic Segmentation
+  A²LC: Active and Automated Label Correction for Semantic Segmentation
 </h1>
 
 <p align="center">
@@ -11,32 +11,18 @@ A²LC: Active and Automated Label Correction for Semantic Segmentation
   Yonsei University
 </p>
 
-<p align="center">
-  <a href="https://arxiv.org/abs/2506.11599">
-    <img src="https://img.shields.io/badge/arXiv-2506.11599-B31B1B.svg?logo=arxiv&logoColor=white">
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/Project-Page-0A66C2.svg">
-  </a>
-  <a href="assets/A2LC_poster.pdf">
-    <img src="https://img.shields.io/badge/Poster-PDF-2E8B57.svg">
-  </a>
-  <a href="assets/A2LC_slides.pdf">
-  <img src="https://img.shields.io/badge/Slides-PDF-6A5ACD.svg">
-  </a>
-  <a href="assets/A2LC_video.mp4">
-    <img src="https://img.shields.io/badge/Video-MP4-FFC247.svg">
-  </a>
-  <a href="https://aaai.org/">
-    <img src="https://img.shields.io/badge/AAAI-2026-001C36.svg">
-  </a>
-  <a href="https://github.com/ngbrjyj/A2LC">
-    <img src="https://img.shields.io/badge/Code-GitHub-000000.svg?logo=github">
-  </a>
-  <a href="https://github.com/ngbrjyj/A2LC">
-    <img src="https://img.shields.io/github/stars/ngbrjyj/A2LC?style=social">
-  </a>
-</p>
+<div align="center">
+
+  [![arXiv](https://img.shields.io/badge/arXiv-2506.11599-B31B1B.svg?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2506.11599)
+  [![Project Page](https://img.shields.io/badge/Project-Page-0A66C2.svg)](https://ngbrjyj.github.io/A2LC)
+  [![Poster](https://img.shields.io/badge/Poster-PDF-2E8B57.svg)](assets/A2LC_poster.pdf)
+  [![Slides](https://img.shields.io/badge/Slides-PDF-6A5ACD.svg)](assets/A2LC_slides.pdf)
+  [![Video](https://img.shields.io/badge/Video-MP4-FFC247.svg)](assets/A2LC_video.mp4)
+  [![AAAI 2026](https://img.shields.io/badge/AAAI-2026-001C36.svg)](https://aaai.org/)
+  [![Code](https://img.shields.io/badge/Code-GitHub-000000.svg?logo=github)](https://github.com/ngbrjyj/A2LC)
+  [![GitHub stars](https://img.shields.io/github/stars/ngbrjyj/A2LC?style=social)](https://github.com/ngbrjyj/A2LC)
+
+</div>
 
 ![overview](assets/overview.png)
 
