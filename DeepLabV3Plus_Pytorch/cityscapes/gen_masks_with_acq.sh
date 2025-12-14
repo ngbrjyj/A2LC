@@ -19,7 +19,7 @@ fi
 
 python DeepLabV3Plus_Pytorch/gen_masks_with_acq.py \
     --save_root_path ${output_dir}/gen_masks_with_acq/result/Round${round} \
-    --ngbr_path ${output_dir}/gen_masks_with_acq/ngbr/Round${round} \
+    --mid_path ${output_dir}/gen_masks_with_acq/mid/Round${round} \
     --round ${round} \
     --dataset_dir ${dataset_dir} \
     --dataset ${dataset} \
@@ -27,4 +27,4 @@ python DeepLabV3Plus_Pytorch/gen_masks_with_acq.py \
     --spx_root_path ${spx_root_path} \
     --n_label_root_path ${n_label_root_path} \
     --budget ${budget} \
-    --sel_hist_fdr ${output_dir}/gen_masks_with_acq/ngbr
+    --sel_hist_fdr ${output_dir}/gen_masks_with_acq/mid

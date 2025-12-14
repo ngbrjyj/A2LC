@@ -28,4 +28,4 @@ python DeepLabV3Plus_Pytorch/auto_correct.py \
     --ckpt ${ckpt_path} \
     --spx_root_path ${spx_root_path} \
     --label_root_path ${label_root_path} \
-    --gen_ngbr_path ${output_dir}/gen_masks_with_acq/ngbr
+    --gen_mid_path ${output_dir}/gen_masks_with_acq/mid

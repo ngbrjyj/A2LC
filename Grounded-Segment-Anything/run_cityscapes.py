@@ -81,7 +81,6 @@ def get_argparser():
     parser.add_argument("--text_threshold", type=float, default=0.25, 
                         help="text threshold")
     parser.add_argument("--devkit_path", type=str)
-    parser.add_argument("--ngbr_path", type=str)
     
     return parser
 

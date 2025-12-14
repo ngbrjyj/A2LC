@@ -81,18 +81,13 @@ def get_argparser():
                         help="path to image file")
     parser.add_argument("--text_prompt", type=str,
                         default="Aeroplane. Bicycle. Bird. Boat. Bottle. Bus. Car. Cat. Chair. Cow. Diningtable. Dog. Horse. Motorbike. Person. Pottedplant. Sheep. Sofa. Train. Tvmonitor.")
-    parser.add_argument("--output_dir", "-o", type=str, default="outputs",
+    parser.add_argument("--output_dir", "-o", type=str,
                         help="output directory")
     parser.add_argument("--box_threshold", type=float, default=0.2, 
                         help="box threshold")
     parser.add_argument("--text_threshold", type=float, default=0.25, 
                         help="text threshold")
-    parser.add_argument("--devkit_path", type=str,
-                        default='/mnt/ssd1/ngbrjyj/DATASET/PASCAL_2012/VOCdevkit',
-                        help="devkit_path")
-    parser.add_argument("--ngbr_path", type=str, 
-                        default='/mnt/ssd1/ngbrjyj/A2LC/demo_pascal/ngbrjyj', 
-                        help="ngbr_path")
+    parser.add_argument("--devkit_path", type=str)
 
     return parser
 

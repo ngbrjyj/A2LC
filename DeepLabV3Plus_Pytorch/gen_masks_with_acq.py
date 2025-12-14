@@ -14,7 +14,7 @@ def get_argparser():
     parser.add_argument("--round", type=int) 
     parser.add_argument("--budget", type=int)
     parser.add_argument("--dataset", type=str)
-    parser.add_argument("--ngbr_path", type=str)
+    parser.add_argument("--mid_path", type=str)
     parser.add_argument("--dataset_dir", type=str)
     parser.add_argument("--sel_hist_fdr", type=str)  
     parser.add_argument("--spx_root_path", type=str)
@@ -87,7 +87,7 @@ for image_name in image_list:
 names = ['abc_dic.pkl']
 
 manual_corr_lbl = {}
-manual_corr_lbl_pth = os.path.join(opts.ngbr_path, 
+manual_corr_lbl_pth = os.path.join(opts.mid_path, 
                                    'manual_corr_lbl.json')
 
 for name in names:
@@ -102,7 +102,7 @@ for name in names:
 
     count = 0
     pkl_images = {}  
-    manual_corr_mask_pth = os.path.join(opts.ngbr_path, 
+    manual_corr_mask_pth = os.path.join(opts.mid_path, 
                                         'manual_corr_mask.json')
     os.makedirs(os.path.dirname(manual_corr_mask_pth), exist_ok=True)
       

@@ -15,7 +15,7 @@ def get_argparser():
     parser = argparse.ArgumentParser()
     parser.add_argument("--round", type=int) 
     parser.add_argument("--dataset", type=str)
-    parser.add_argument("--ngbr_dir", type=str)
+    parser.add_argument("--mid_dir", type=str)
     parser.add_argument("--save_path", type=str)
     parser.add_argument("--dataset_dir", type=str)
     parser.add_argument("--sel_hist_fdr", type=str)  
@@ -56,7 +56,7 @@ elif 'city' in opts.dataset.lower():
     gt_path = os.path.join(opts.dataset_dir, 
                            'gtFine_trainvaltest/gtFine/train')
     
-os.makedirs(opts.ngbr_dir, exist_ok=True)
+os.makedirs(opts.mid_dir, exist_ok=True)
     
 with open(train_imageset_path, 'r') as f:
     lines = f.readlines()

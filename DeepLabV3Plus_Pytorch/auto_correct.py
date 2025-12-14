@@ -36,7 +36,7 @@ def get_argparser():
     parser.add_argument("--save_path", type=str)
     parser.add_argument("--devkit_path", type=str)
     parser.add_argument("--spx_root_path", type=str)
-    parser.add_argument('--gen_ngbr_path', type=str)
+    parser.add_argument('--gen_mid_path', type=str)
     parser.add_argument("--label_root_path", type=str)
     parser.add_argument('--epochs', type=int, default=100)
     parser.add_argument('--lr', type=float, default=0.0001)
@@ -118,12 +118,12 @@ def auto_correction(model, args):
     save_lbl_path = os.path.join(save_data_fdr, 'label.txt')
     save_query_path = os.path.join(save_data_fdr, 'queried.txt')
     
-    manual_corr_mask_pth = os.path.join(args.gen_ngbr_path,
+    manual_corr_mask_pth = os.path.join(args.gen_mid_path,
                                         f'Round{args.round}',
                                         'manual_corr_mask.json')
     manual_corr_mask = json.load(open(manual_corr_mask_pth))
     
-    manual_corr_lbl_pth = os.path.join(args.gen_ngbr_path,
+    manual_corr_lbl_pth = os.path.join(args.gen_mid_path,
                                    f'Round{args.round}',
                                    'manual_corr_lbl.json')
     manual_corr_lbl = json.load(open(manual_corr_lbl_pth))
@@ -271,7 +271,7 @@ def auto_correction(model, args):
     model.to(device)
     model.eval()  
     
-    uniquer = Unique_Manager(sel_hist_fdr = args.gen_ngbr_path,
+    uniquer = Unique_Manager(sel_hist_fdr = args.gen_mid_path,
                              curr_round = args.round)
     past_corr_masks = uniquer.get_hist_dict()            
                 

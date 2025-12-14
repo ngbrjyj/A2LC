@@ -18,11 +18,11 @@ fi
 
 python DeepLabV3Plus_Pytorch/acq_on_sam.py \
     --save_path ${output_dir}/acq_on_sam/result/Round${round}/ \
-    --ngbr_dir ${output_dir}/acq_on_sam/ngbr/Round${round}/ \
+    --mid_dir ${output_dir}/acq_on_sam/mid/Round${round}/ \
     --round ${round} \
     --dataset_dir ${dataset_dir} \
     --dataset ${dataset} \
     --soft_label_path ${soft_label_path} \
     --spx_root_path ${spx_root_path} \
     --n_label_root_path ${n_label_root_path} \
-    --sel_hist_fdr ${output_dir}/gen_masks_with_acq/ngbr/
+    --sel_hist_fdr ${output_dir}/gen_masks_with_acq/mid/
