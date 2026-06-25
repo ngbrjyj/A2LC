@@ -17,7 +17,7 @@
   [![Project Page](https://img.shields.io/badge/Project-Page-0A66C2.svg)](https://ngbrjyj.github.io/A2LC)
   [![Poster](https://img.shields.io/badge/Poster-PDF-2E8B57.svg)](assets/A2LC_poster.pdf)
   [![Slides](https://img.shields.io/badge/Slides-PDF-FFC247.svg)](assets/A2LC_slides.pdf)
-  [![AAAI 2026](https://img.shields.io/badge/AAAI-2026-001C36.svg)](https://aaai.org/)
+  [![AAAI 2026](https://img.shields.io/badge/AAAI-2026-001C36.svg)](https://ojs.aaai.org/index.php/AAAI/article/view/37445)
   [![Code](https://img.shields.io/badge/Code-GitHub-000000.svg?logo=github)](https://github.com/ngbrjyj/A2LC)
   [![GitHub stars](https://img.shields.io/github/stars/ngbrjyj/A2LC?style=social)](https://github.com/ngbrjyj/A2LC)
 
@@ -97,14 +97,14 @@ Our codes are based on the following open-source projects:
 If our work is helpful for your research, please consider citing our paper:
 
 ```bibtex
-@misc{jeon2025a2lcactiveautomatedlabel,
-      title={A$^2$LC: Active and Automated Label Correction for Semantic Segmentation}, 
-      author={Youjin Jeon and Kyusik Cho and Suhan Woo and Euntai Kim},
-      year={2025},
-      eprint={2506.11599},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2506.11599}, 
+@inproceedings{jeon2026a2lc,
+  title={A$^2$LC: Active and Automated Label Correction for Semantic Segmentation},
+  author={Jeon, Youjin and Cho, Kyusik and Woo, Suhan and Kim, Euntai},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={40},
+  number={7},
+  pages={5296--5304},
+  year={2026}
 }
 ```
 
